@@ -14,5 +14,5 @@ public interface HotelService {
     void delete(int id) throws DeleteFailException, NotFoundException;
     HotelDTO search(int id) throws NotFoundException;
     List<HotelDTO> findByStarRate(int id) throws NotFoundException;
-    //
+
 }
