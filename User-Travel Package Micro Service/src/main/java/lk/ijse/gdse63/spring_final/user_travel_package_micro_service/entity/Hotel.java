@@ -17,6 +17,6 @@ public class Hotel {
 
     @ManyToOne(cascade = CascadeType.ALL)
     private UserTravelPackage userTravelPackage;
-//
+
 
 }
