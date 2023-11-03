@@ -22,5 +22,5 @@ public class Driver {
 
     @OneToOne(targetEntity = Vehicle.class , mappedBy = "driver")
     private Vehicle vehicle;
-
+//
 }
